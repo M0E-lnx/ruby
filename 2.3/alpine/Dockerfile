@@ -1,4 +1,5 @@
-FROM alpine:3.3
+#FROM alpine:3.3
+FROM m0elnx/alpine-x86:3.3
 
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
